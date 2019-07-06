@@ -28,12 +28,12 @@ input[type="checkbox"] {
   opacity: 0;
 }
 
-/*label {
+label {
   position: relative;
   color: gray;
 }
 
-label::before {
+/*label::before {
   position: absolute;
   content: "";
   display: block;
