@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,94 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #2f3544, black);
+  background-repeat: no-repeat;
+  background-size: auto;
+  font-family: "Roboto", sans-serif;
+}
+
+input[type="checkbox"] {
+  opacity: 0;
+}
+
+label {
+  position: relative;
+  color: gray;
+}
+
+label::before {
+  position: absolute;
+  content: "";
+  display: block;
+  height: 16px;
+  width: 16px;
+  border: 1px dotted gray;
+  border-radius: 5px;
+  top: -1px;
+}
+
+label::after {
+  position: absolute;
+  content: none;
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  color: red;
+  left: -23px;
+  top: -3px;
+  animation: colorChange 1s linear infinite;
+  -webkit-animation: colorChange 1s linear infinite;
+}
+
+@keyframes colorChange {
+  0% {
+    color: red;
+  }
+  25% {
+    color: orange;
+  }
+  50% {
+    color: yellow;
+  }
+  75% {
+    color: limegreen;
+  }
+  100% {
+    color: blue;
+  }
+}
+
+@-webkit-keyframes colorChange {
+  0% {
+    color: red;
+  }
+  25% {
+    color: orange;
+  }
+  50% {
+    color: yellow;
+  }
+  75% {
+    color: limegreen;
+  }
+  100% {
+    color: blue;
+  }
+}
+
+input[type="checkbox"]:checked + label::after {
+  content: "\02764";
+}
+
+input[type="checkbox"]:focus + label::before {
+  outline: 1px dotted pink;
 }
 
 .containers {
