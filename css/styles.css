@@ -24,12 +24,11 @@ body {
   height: 1.5em;
 }
 
-/*
 input[type="checkbox"] {
   opacity: 0;
 }
 
-label {
+/*label {
   position: relative;
   color: gray;
 }
