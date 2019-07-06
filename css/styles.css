@@ -101,11 +101,11 @@ label::after {
   }
 }
 
-/*input[type="checkbox"]:checked + label::after {
+input[type="checkbox"]:checked+label::after {
   content: "\02764";
 }
 
-input[type="checkbox"]:focus + label::before {
+/*input[type="checkbox"]:focus + label::before {
   outline: 1px dotted pink;
 }
 
