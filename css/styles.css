@@ -1,3 +1,14 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #2f3544, black);
+  background-repeat: no-repeat;
+  background-size: auto;
+  font-family: "Roboto", sans-serif;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -21,16 +32,6 @@
   height: 1.5em;
 }
 
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-image: linear-gradient(to bottom, #2f3544, black);
-  background-repeat: no-repeat;
-  background-size: auto;
-  font-family: "Roboto", sans-serif;
-}
 
 input[type="checkbox"] {
   opacity: 0;
