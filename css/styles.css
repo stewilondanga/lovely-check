@@ -44,7 +44,7 @@ label::before {
   top: -1px;
 }
 
-/*label::after {
+label::after {
   position: absolute;
   content: none;
   display: inline-block;
@@ -57,7 +57,7 @@ label::before {
   -webkit-animation: colorChange 1s linear infinite;
 }
 
-@keyframes colorChange {
+/*@keyframes colorChange {
   0% {
     color: red;
   }
