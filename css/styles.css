@@ -57,25 +57,29 @@ label::after {
   -webkit-animation: colorChange 1s linear infinite;
 }
 
-/*@keyframes colorChange {
+@keyframes colorChange {
   0% {
     color: red;
   }
+
   25% {
     color: orange;
   }
+
   50% {
     color: yellow;
   }
+
   75% {
     color: limegreen;
   }
+
   100% {
     color: blue;
   }
 }
 
-@-webkit-keyframes colorChange {
+/*@-webkit-keyframes colorChange {
   0% {
     color: red;
   }
