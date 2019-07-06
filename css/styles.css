@@ -119,14 +119,14 @@ input[type="checkbox"]:focus+label::before {
   font-weight: normal;
   text-align: center;
   color: #c0c0c0;
-  padding-top: 50px;
+  padding-top: 250px;
   padding-bottom: 10px;
   width: 375px;
   margin: 0 auto;
   border-bottom: 3px solid #f3f3f3;
 }
 
-/*.cal {
+.cal {
   display: inline-block;
   background: #ffe;
   color: #555;
@@ -136,7 +136,7 @@ input[type="checkbox"]:focus+label::before {
   transition: all 0.2s linear;
 }
 
-.cal:hover {
+/*.cal:hover {
   transform: scale(2.5);
   transition: all 0.4s linear;
 }
