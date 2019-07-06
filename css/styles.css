@@ -33,7 +33,7 @@ label {
   color: gray;
 }
 
-/*label::before {
+label::before {
   position: absolute;
   content: "";
   display: block;
@@ -44,7 +44,7 @@ label {
   top: -1px;
 }
 
-label::after {
+/*label::after {
   position: absolute;
   content: none;
   display: inline-block;
